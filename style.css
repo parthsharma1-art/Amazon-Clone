@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0px;
+}
+header{
+    margin: 0px;
+    padding: 0px;
+    height: 60px;
+    width:100%;
+    position: relative;
+    background-color: black;
+    
+}
+.img img{
+    height: 60px;
+    width: 155px;
+    margin: 0;
+    color:black;
+    padding: 0;
+}
+
+header .logo{
+    position: absolute;
+    top: 10px;
+    left: 144px;
+    width: 20px;
+    height: 20px;
+    color: black;
+}
+header .location{
+    color: white;
+    position: absolute;
+    top:10px;
+    left: 184px;
+}
+.head .input input{
+    position: absolute;
+    top: 17px;
+    left: 333px;    
+    border-radius: 1px;
+    border: none;
+    font-size: 16px;
+    padding: 3px;
+    width: 350px;
+}
+.head .selector select{
+    position: absolute;
+    top:17px ;
+    left: 277px;
+    padding: 3px;
+    font-size: 14px;
+    border-radius: 1px;
+    border: none;
+}
+.selector select:hover{
+    border: 2px solid yellow;
+    cursor: pointer;
+}
+.input input:hover {
+    border: 2px solid yellow;
+    cursor: pointer;
+
+}
